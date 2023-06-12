@@ -1,0 +1,73 @@
+
+
+
+ .imagenFondo{background-image:url(../IMG/fondomarron.png);
+			background-repeat:no-repeat;
+			background-attachment:fixed;}
+ body{background: linear-gradient(0deg, rgb( 241, 207, 172) 0%, rgb(  99, 52, 6  ) 100%) fixed;}
+    
+.contenedor{margin:0 auto;
+            width:90%; 
+			text-align:center;
+			}
+.cabecera{margin:0 auto;
+		  padding-bottom:0;
+		  display:inline-block;
+		  color:#fff;
+		  font-family: 'Dancing Script', cursive;
+		  font-size:200%;}
+	
+.navegacion a{padding:2% 2% 0% 2%;}
+a:link{color:  #502b06;font-size:130%;}
+a{color:   #502b06 ;font-size:130%;text-decoration: none;}
+h2 a:visited{color:#502b06;}
+h2 a:hover{color:#fff;
+		    font-size:150%;}
+.imagenMenu{display:inline-block;
+			margin:3% auto;}
+.imagenMenu img{filter:brightness(1);
+				mix-blend-mode:multiply;
+				width:100%;border-radius: 10px;
+				margin: 5%;}
+/*Se cambio el borde de la tabla*/
+.tabla{margin: 0 auto;display:block;width: 100%;}
+.tabla table{border-radius:10px;
+			 border:solid 4px #502b06;
+			 margin: 0 auto;width:30%}
+/*Se cambiaron los fondos de las celdas, lacabecera se cambio de color, y el resto a blancos*/
+th,td {
+   width: 30%;
+   padding:2%;
+   text-align: left;
+   font-family: 'Dancing Script', cursive;font-size:180%;margin:15% auto;
+   border: 1px solid #000;
+   border-radius:10px;
+   background-color:#fff;
+}
+th{text-align:center;
+	color:#fff;
+	font-size:220%;
+	background-color:#502b06;}
+a:hover{font-size:180%;
+		color:  #502b06;}
+/*se cambiaron las viñetas con estilos*/
+li {
+	padding-left: 2rem;
+	background-image: url(../img/icono.png);
+	background-position: 0 70%;
+	background-size: 1.1rem 1.1rem;
+	background-repeat: no-repeat;
+}
+.pie{text-align:center; 
+	margin:auto;}
+hr{width:80%;
+	color:  #502b06 ;
+	height:3px;
+	background: #502b06 ;
+	margin:3% auto;} 
+
+.reto{color:#fff;font-family: 'Dancing Script', cursive;
+		font-size:45px;margin:30px auto;}
+img{ border-radius: 15px; 
+	width: 60%; 
+	box-shadow: 0px 3px 5px rgba(15,15,15, .5); }

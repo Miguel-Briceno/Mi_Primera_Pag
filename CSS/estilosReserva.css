@@ -1,0 +1,64 @@
+.imagenFondo{background-image:url(../IMG/fondomarron.png);
+			background-repeat:no-repeat;
+			background-attachment:fixed;}
+ body{background: linear-gradient(0deg, rgb( 241, 207, 172) 0%, rgb(  99, 52, 6  ) 100%) fixed;}
+    
+.contenedor{margin:0 auto;
+            width:90%; 
+			text-align:center;}
+.cabecera{margin:0 auto;
+		  display:inline-block;
+		  color:#fff;
+		  font-family: 'Dancing Script', cursive;
+		  font-size:200%;}
+	
+.navegacion a{padding:2% 2% 0% 2%;}
+a:link{color:#502b06;font-size:130%;}
+a{color:#502b06;font-size:130%;text-decoration: none;}
+h2 a:visited{color:#502b06;}
+h2 a:hover{color:#fff;
+		    font-size:150%;}
+.mensajeReserva{font-family: 'Dancing Script', cursive;
+				color:#502b06;
+				font-size:160%}
+.contenedorFormulario{margin:0 auto;
+					 width: 40%;
+					 text-align: justify;}
+.formulario label{
+  display: inline-block;
+  width: 30%;
+  margin:3% auto;
+	color:#502b06; font-size:160%;}
+/*Texto a rellenar es de otra familia y más pequeña*/
+input{display:inline-block;width:68%;background-color: #ddd;
+	margin: 0 auto; font-family:cursive;font-size:15px;}
+
+.formulario textarea{display:inline-block;resize: none;width: 68%;background-color: #ddd}
+#fNumero input{width:10%;background-color: #ddd;}
+#parking label{margin-right: 5%; 
+				display:inline;}
+#parking input{width:25%;background-color: #ddd;
+		display:inline-block;}
+#zona, #zonaTerraza, #Salon{display:inline;}
+#zonaTerraza input, #Salon input{width:10%;background-color: #ddd;}
+.botonEnviar{margin:0 auto;
+			text-align:center;
+			filter:	brightness(1);
+			mix-blend-mode:multiply;
+			width:100%;
+			border-radius: 10px;
+			
+}
+.botonReset{margin:0 auto; 
+			width:40%;}
+.botonReset input{margin-left: 17%;background-color: #766026;}
+.pie{text-align:center; 
+	margin:0 auto;}
+hr{width:80%;
+	color:  #502b06 ;
+	height:3px;
+	background: #502b06 ;
+	margin:3% auto;} 
+.crea-fecha{background-color:#ddd; ;}
+a:hover{font-size:180%;
+		color:  #502b06;}

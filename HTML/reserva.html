@@ -1,0 +1,124 @@
+<! DOCTYPE html>
+<html>
+	<head>
+		<title>Reserva</title>
+		<meta http-equiv="content-type" content="text-html"; charset="UTF-8">
+		<link href="../css/normalize.css" type="text/css" rel="stylesheet">
+		<link href="../css/estilosReserva.css" type="text/css" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+	</head>
+	<body class="imagenFondo"><a name="comienzo"></a>		
+		<div class="contenedor">
+			<header class="cabecera">
+					<h1>Restaurante El Gran Mesón</h1>
+				</header>
+				<nav class="navegacion">	
+					<h2 ><a href="../index.html">Presentación</a>
+						<a href="./menu.html">Menú</a>
+						<a href="./reserva.html">Reserva</a>
+						<a href="./propietario.html">Propietario</a>
+					</h2>
+				</nav>
+			<hr>
+			<div class="mensajeReserva">
+				<h2>"RESERVA YA... TE ESPERAMOS..."</h2>
+			</div>
+			<div class="contenedorFormulario">
+				<form method="post" action=".\html\index.html">				
+					<div class="formulario">
+						<label>Nombres:</label>
+						<input name="Texto1" type="text"required>
+					</div>		
+					<div class="formulario">
+						<label>Apellidos:</label>
+						<input name="Texto2" type="text" required>
+					</div>		
+					<div class="formulario">
+						<label for="Numero">Nº de Movil:</label>
+						<input name="Numero" type="tel" required>
+					</div>		
+					<div class="formulario">
+						<label for="Email">Email:</label>
+						<input name="Email" type="Email" required>
+					</div>		
+					<div class="formulario">
+						<label>Fecha:</label>
+						<select id="day" class="crea-fecha">
+							<option value="Day">Dia</option>
+							<option value="Martes">Martes</option>
+							<option value="Miercoles">Miercoles</option>
+							<option value="Jueves">Jueves</option>
+							<option value="Viernes">Viernes</option>
+							<option value="Sabado">Sabado</option>
+							<option value="Domingo">Domingo</option>
+						</select>
+						<select id="mes" class="crea-fecha">
+							<option value="">Mes</option>
+							<option value="Enero">Enero</option>
+							<option value="Febrero">Febrero</option>
+							<option value="Marzo">Marzo</option>
+							<option value="Abril">Abril</option>
+							<option value="Mayo">Mayo</option>
+							<option value="Junio">Junio</option>
+							<option value="Julio">Julio</option>
+							<option value="Agosto">Agosto</option>
+							<option value="Septiembre">Septiembre</option>
+							<option value="Octubre">Octubre</option>
+							<option value="Noviembre">Noviembre</option>
+							<option value="Diciembre">Diciembre</option>
+						</select>
+						<select id="hora" class="crea-fecha">
+							<option value="Hora">Hora</option>
+							<option value="10:00">10:00</option>
+							<option value="11:00">11:00</option>
+							<option value="12:00">12:00</option>
+							<option value="13:00">13:00</option>clase="input"
+							<option value="14:00">14:00</option>
+							<option value="15:00">15:00</option>
+							<option value="16:00">16:00</option>
+							<option value="17:00">17:00</option>
+							<option value="18:00">18:00</option>
+							<option value="19:00">19:00</option>
+							<option value="20:00">20:00</option>
+							<option value="21:00">21:00</option>	  
+						</select>			
+					</div>	
+					<div class="formulario" id="fNumero">
+						<label>Nº de Personas:</label>
+						<input name="numero" type="number">
+					</div>		
+					<div class="formulario">
+						<label>Observaciones:</label> 
+						<textarea rows="3" cols="43">Escribe aqui......</textarea>
+					</div>		
+					<div class="formulario" id="parking"><label>Parking:</label> <input name="Parking" type="checkbox" value="">
+					</div>
+					<div class="formulario" id="zona">
+						<label>Zona:</label>
+					</div>
+					<div id="zonaTerraza">
+						<label>Terraza</label><input name="zona" type= "radio" value="true">
+					</div>	
+					<div id="Salon">
+						<label>Salon</label><input name="zona" type="radio" value="false">
+					</div>		
+					<div class="botonEnviar">
+						<input title="boton enviar" alt="boton enviar" src="..\img/reserva.jpg" type="image">							
+					</div>
+					<div class="botonReset">
+						<input  title="bottom" type="reset" value="Limpiar">							
+					</div>
+				</form>
+			</div>
+			<footer class='pie'>
+			<a href="#comienzo">Volver arriba </a>
+			<hr>
+			</footer>		
+		</div>
+	</body>
+</html>

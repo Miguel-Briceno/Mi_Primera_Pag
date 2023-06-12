@@ -1,0 +1,51 @@
+
+/*Se cargo una imagen de fondo con la clase, en el caso que no se cargue la imagen por algun motivo, 
+igual se mantinene el fondo con los valores de background atraves del elemento body*/
+.imagenFondo{background-image:url(../IMG/fondomarron.png);
+			background-repeat:no-repeat;
+			background-attachment:fixed;}
+ body{background: linear-gradient(0deg, rgb( 241, 207, 172) 0%, rgb(  99, 52, 6  ) 100%) fixed;}
+.contenedor{margin:0 auto;
+            width:90%; 
+			text-align:center;}
+/*Se cambio el tipo de letra del titulo y el color*/
+.cabecera{margin:0 auto;
+		  padding-bottom:0;
+		  display:inline-block;
+		  color:#fff;
+		  font-family: 'Dancing Script', cursive;
+		  font-size:200%;}
+
+.navegacion a{padding:2% 2% 0% 2%;}
+/*Se cambio el color igual para los enlaces visitados y no visitados, ademas cuando de pone el cursor
+sobre el enlace cambia a color blanco y aumenta el tamaño de la letra*/	
+
+a:link{color:  #502b06;font-size:130%;}
+a{color:   #502b06 ;font-size:130%;text-decoration: none;}
+h2 a:visited{color:#502b06;}
+h2 a:hover{color:#fff;
+		    font-size:150%;}
+
+.imagenPortada{width:50%;display:inline-block;
+			   margin:3% auto;}
+.imagenPortada img{width:100%;height:100%;object-fit:cover;}
+.texto{ margin:3% auto;
+		width:80%;
+		text-align:center;
+		color:#fff;
+		font-family: 'Dancing Script', cursive;
+		font-size:200%;}
+.pie{text-align:center; 
+	margin:auto;}
+hr{width:80%;
+	color:  #502b06 ;
+	height:3px;
+	background: #502b06 ;
+	margin:3% auto;} 
+img{ border-radius: 15px; 
+	width: 60%; 
+	box-shadow: 0px 3px 5px rgba(15,15,15, .5); }
+/*Los comentarios son para dar respuesta al feedback pero se hicieron otras cosas para mejorar 
+la pag*/
+a:hover{font-size:180%;
+		color:  #502b06;}
